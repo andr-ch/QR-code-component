@@ -1,0 +1,83 @@
+body {
+  /*  background-color:hsl(212, 45%, 89%); */
+    background-image: url('images/82143.jpg');
+    background-position: center; /* Center the image */
+}
+
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+img {
+    border-radius: 15px;
+    border: 5px solid #0070f3;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 5);
+    width: 287px;
+    height:286px;
+    margin-top:17px;
+    margin-left:12px;
+    margin-right:16px;
+    transition: width 2s, height 2s, transform 2s; /* Specifies a transition animation duration of 2 seconds for changes in width, height, and transform properties */
+}
+
+
+img:hover {
+    transform: scale(1.1) translate(21px, 22px); /* Scale up the image slightly on hover and moving it from its original position*/
+}
+
+
+
+
+p {
+   /* color: hsl(220, 15%, 55%); */
+    color: #6F7991;
+    font-size: 15px;
+    font-weight: 500;
+    text-align-last: center;
+}
+
+
+
+.attribution {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.content {
+   /* background-color:rgb(215, 204, 221); */
+    background-color: #FFF5EE;
+    border-radius: 22px;
+    width: 323px;
+    height:496px;
+}
+
+.element {
+    display: flex; /* Flexbox layout: Displays children in a flexible container */
+    flex-wrap: wrap; /* Allows wrapping of flex items within the container */
+    justify-content: center; /* Centers flex items along the main axis */
+    margin-top: 131px;
+}
+
+
+.text-area {
+    font-family: "Outfit", sans-serif;
+    width: 253px;
+    height: 134px;
+    margin-left: 34px;
+    text-align: center;
+    margin-top: 23px;
+}
+    
+
+
+@media only screen and (max-width: 768px) {
+    .attribution {
+      display: none; /* Hides the footer */
+    }
+}
